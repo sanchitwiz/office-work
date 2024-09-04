@@ -1,0 +1,26 @@
+/* styles.css */
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.card-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
